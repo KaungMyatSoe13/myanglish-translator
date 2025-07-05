@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-Oswald: "Bitcount Grid Double", system-ui;
+  --font-Bitcount: "Oswald", sans-serif;
+  --font-Nunito: "Nunito Sans", sans-serif;
+  --button-color: #3e3e3e;
+}
+
+html,
+body {
+  position: relative; /* allow absolute positioning of children */
+  margin: 0; /* remove default margin */
+  padding: 0; /* remove default padding */
+  width: full; /* viewport width */
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.077);
+}
