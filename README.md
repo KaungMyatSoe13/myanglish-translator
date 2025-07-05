@@ -1,6 +1,6 @@
 # Myanglish Translator
 
-A web app that converts text between Burmese and Myanglish (Romanized Burmese).
+A web app that converts text between Burmese and Myanglish.
 
 ## Features
 
@@ -16,15 +16,6 @@ A web app that converts text between Burmese and Myanglish (Romanized Burmese).
 - Tailwind CSS
 - myanglish-translator
 
-## Installation
-
-```bash
-git clone https://github.com/KaungMyatSoe13/myanglish-translator.git
-cd myanglish-translator
-npm install
-npm run dev
-```
-
 ## Usage
 
 1. Type text in either Burmese or Myanglish
@@ -38,3 +29,4 @@ npm run dev
 
 - Portfolio: [https://my-portfolio-henna-psi.vercel.app/](https://my-portfolio-henna-psi.vercel.app/)
 - GitHub: [@KaungMyatSoe13](https://github.com/KaungMyatSoe13)
+- ig: @kforsure
