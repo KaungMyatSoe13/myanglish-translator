@@ -6,6 +6,7 @@ import { SiAboutdotme } from "react-icons/si";
 import MyanglishBox from "./components/MyanglishBox.jsx";
 import BurmeseBox from "./components/BurmeseBox.jsx";
 import { MdContactMail } from "react-icons/md";
+import logoImage from "/images/logoWhite.png";
 
 function App() {
   const [input, setInput] = useState("");
@@ -45,7 +46,7 @@ function App() {
         >
           {" "}
           <img
-            src="./images/logoWhite.png"
+            src={logoImage}
             alt="logo"
             className="w-10 hover:cursor-pointer"
             onError={(e) => {
