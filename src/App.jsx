@@ -38,7 +38,11 @@ function App() {
   return (
     <div className="flex flex-col items-center h-screen ">
       <div className="fixed top-4 right-6 text-2xl font-bold text-gray-600 z-10">
-        <a href="">
+        <a
+          href="https://github.com/KaungMyatSoe13/myanglish-translator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           <img
             src="\public\images\logoWhite.png"
