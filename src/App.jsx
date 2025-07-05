@@ -45,9 +45,13 @@ function App() {
         >
           {" "}
           <img
-            src="\public\images\logoWhite.png"
+            src="./images/logoWhite.png"
             alt="logo"
             className="w-10 hover:cursor-pointer"
+            onError={(e) => {
+              console.error("Image failed to load:", e.target.src);
+              e.target.style.display = "none";
+            }}
           />
         </a>{" "}
       </div>
